@@ -1,0 +1,26 @@
+#whatsapp-botao {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25D366;
+    box-shadow: 0 4px 8px rgba(0.5, 0.5, 0.5, 0.5);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #whatsapp-botao:hover {
+    transform: scale(1.2);
+  }
+    
+  #whatsapp-botao img {
+    width: 50%;
+    height: 50%;
+  }
+
+
