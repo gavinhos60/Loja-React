@@ -11,14 +11,13 @@ import image2 from '../imagens/imagem1.png';
 import image3 from '../imagens/imagem1.png';
 
 const settings = {
-  
+
   dots: true,
   infinite: true,
   speed: 500,
   slidesToShow: 1,
   autoplaySpeed: 100,
   slidesToScroll: 1
-   
   };
   
   function Carousel() {
@@ -33,11 +32,8 @@ const settings = {
         </div>
         <div>
           <img src={image3} alt="Image3" />
-        </div>
-        
+        </div> 
       </Slider>
-      <button class="slick-prev">Anterior</button>
-  <button class="slick-next">Próximo</button>
       </div>
       
     );
