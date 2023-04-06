@@ -1,0 +1,9 @@
+.produto1{
+width: 200px;
+height: 200px;
+border: 1px solid black;
+float: left;
+}
+ul{
+    list-style-type: none;
+}
