@@ -4,7 +4,7 @@ import './css/whatsapp.css'
 
 function Whatsapp() {
     const handleClick = () => {
-      window.open('https://wa.me/seunumerodetelefonecompleto', '_blank');
+      window.open('https://wa.me/11932036594', '_blank');
     }
   
     return (
